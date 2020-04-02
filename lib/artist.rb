@@ -9,7 +9,7 @@ attr_accessor :name
   end
 
   def self.all
-    @@all
+    artist = Artist.all
   end
 
 end
